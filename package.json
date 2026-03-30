@@ -1,0 +1,11 @@
+{
+  "name": "cloud-news",
+  "version": "1.0.0",
+  "description": "Cloud provider news aggregator",
+  "scripts": {
+    "update-news": "node scripts/fetch-news.js"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  }
+}
