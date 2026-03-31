@@ -198,6 +198,66 @@
 
     @keyframes spin { to { transform: rotate(360deg); } }
 
+    /* Breaking-news ticker */
+    .ticker-wrap {
+      background: linear-gradient(90deg, #1a1025 0%, #1e1030 100%);
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .ticker-wrap .ticker-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #c0392b;
+      color: #fff;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      padding: 8px 14px;
+      position: relative;
+      z-index: 2;
+      flex-shrink: 0;
+      vertical-align: middle;
+    }
+
+    .ticker-wrap .ticker-label::after {
+      content: '';
+      position: absolute;
+      right: -8px;
+      top: 0;
+      border-style: solid;
+      border-width: 16px 8px 16px 0;
+      border-color: transparent transparent transparent #c0392b;
+    }
+
+    .ticker-track {
+      display: inline-block;
+      padding-left: 16px;
+      animation: ticker-scroll 30s linear infinite;
+      vertical-align: middle;
+    }
+
+    .ticker-track span {
+      display: inline-block;
+      padding: 0 28px;
+      font-size: 0.82rem;
+      color: var(--text-primary);
+    }
+
+    .ticker-track span::before {
+      content: '⚡';
+      margin-right: 6px;
+    }
+
+    @keyframes ticker-scroll {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
     @media (max-width: 600px) {
       .header-inner { flex-direction: column; align-items: flex-start; }
       #news-grid { grid-template-columns: 1fr; }
@@ -206,6 +266,11 @@
   </style>
 </head>
 <body>
+  <div class="ticker-wrap" id="ticker">
+    <span class="ticker-label">🔴 Breaking News</span>
+    <div class="ticker-track" id="ticker-track"></div>
+  </div>
+
   <header>
     <div class="header-inner">
       <div class="header-left">
@@ -312,6 +377,17 @@
       if (tab) applyFilter(tab.dataset.source);
     });
 
+    /* Populate the ticker with the 6 most recent headlines */
+    function populateTicker(items) {
+      const track = document.getElementById('ticker-track');
+      const top = items.slice(0, 6);
+      // Duplicate items so the scroll loops seamlessly
+      const headlines = [...top, ...top];
+      track.innerHTML = headlines
+        .map(i => `<span>${escHtml(i.title)}</span>`)
+        .join('');
+    }
+
     fetch('news.json')
       .then(r => {
         if (!r.ok) throw new Error('news.json not found');
@@ -324,6 +400,7 @@
           ? `Last updated: ${new Date(data.lastUpdated).toLocaleString('en-US', { dateStyle: 'medium', timeStyle: 'short' })}`
           : '';
         document.getElementById('last-updated').textContent = ts;
+        populateTicker(allItems);
         applyFilter('all');
       })
       .catch(err => {
