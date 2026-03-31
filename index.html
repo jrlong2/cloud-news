@@ -198,6 +198,91 @@
 
     @keyframes spin { to { transform: rotate(360deg); } }
 
+    /* Breaking news ticker */
+    .ticker-bar {
+      background: linear-gradient(90deg, #1a1000 0%, #2a1a00 50%, #1a1000 100%);
+      border-bottom: 1px solid var(--accent-aws);
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .ticker-bar::before,
+    .ticker-bar::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 60px;
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .ticker-bar::before {
+      left: 0;
+      background: linear-gradient(to right, #1a1000, transparent);
+    }
+
+    .ticker-bar::after {
+      right: 0;
+      background: linear-gradient(to left, #1a1000, transparent);
+    }
+
+    .ticker-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--accent-aws);
+      color: #000;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      padding: 8px 14px;
+      position: relative;
+      z-index: 3;
+      flex-shrink: 0;
+      vertical-align: middle;
+    }
+
+    .ticker-label::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: #ff0000;
+      border-radius: 50%;
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+
+    .ticker-content {
+      display: inline-block;
+      padding-left: 16px;
+      animation: scroll-left 18s linear infinite;
+      vertical-align: middle;
+    }
+
+    .ticker-content a {
+      color: var(--accent-aws);
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 500;
+      padding: 8px 0;
+      display: inline-block;
+    }
+
+    .ticker-content a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes scroll-left {
+      0%   { transform: translateX(60vw); }
+      100% { transform: translateX(-100%); }
+    }
+
     @media (max-width: 600px) {
       .header-inner { flex-direction: column; align-items: flex-start; }
       #news-grid { grid-template-columns: 1fr; }
@@ -206,6 +291,11 @@
   </style>
 </head>
 <body>
+  <div class="ticker-bar" id="ticker" style="display:none">
+    <span class="ticker-label">Breaking</span>
+    <span class="ticker-content" id="ticker-content"></span>
+  </div>
+
   <header>
     <div class="header-inner">
       <div class="header-left">
@@ -325,6 +415,15 @@
           : '';
         document.getElementById('last-updated').textContent = ts;
         applyFilter('all');
+
+        // Populate breaking news ticker with latest AWS headline
+        const awsItem = allItems.find(i => i.source === "AWS What's New");
+        if (awsItem) {
+          const ticker = document.getElementById('ticker');
+          const tickerContent = document.getElementById('ticker-content');
+          tickerContent.innerHTML = `<a href="${escHtml(awsItem.link)}" target="_blank" rel="noopener noreferrer">⚡ ${escHtml(awsItem.title)}</a>`;
+          ticker.style.display = 'block';
+        }
       })
       .catch(err => {
         document.getElementById('loading').innerHTML =
