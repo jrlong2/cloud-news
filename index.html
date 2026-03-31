@@ -13,10 +13,6 @@
       --surface-hover: #222535;
       --border: #2a2d3e;
       --accent-aws: #ff9900;
-      --accent-azure: #0078d4;
-      --accent-gcp: #34a853;
-      --accent-hashi: #5c4ee5;
-      --accent-cf: #f6821f;
       --text-primary: #e8eaf0;
       --text-secondary: #8b8fa8;
       --text-link: #7c9cff;
@@ -214,11 +210,10 @@
       </div>
       <nav id="tabs">
         <button class="tab active" data-source="all">All</button>
-        <button class="tab" data-source="AWS What's New">AWS</button>
-        <button class="tab" data-source="Azure Updates">Azure</button>
-        <button class="tab" data-source="Google Cloud Blog">Google Cloud</button>
-        <button class="tab" data-source="HashiCorp Blog">HashiCorp</button>
-        <button class="tab" data-source="Cloudflare Blog">Cloudflare</button>
+        <button class="tab" data-source="AWS What's New">What's New</button>
+        <button class="tab" data-source="AWS News Blog">News Blog</button>
+        <button class="tab" data-source="AWS Architecture Blog">Architecture</button>
+        <button class="tab" data-source="AWS Security Blog">Security</button>
       </nav>
     </div>
   </header>
@@ -233,10 +228,9 @@
   <script>
     const SOURCE_COLORS = {
       "AWS What's New": '#ff9900',
-      'Azure Updates': '#0078d4',
-      'Google Cloud Blog': '#34a853',
-      'HashiCorp Blog': '#5c4ee5',
-      'Cloudflare Blog': '#f6821f',
+      'AWS News Blog': '#d45b07',
+      'AWS Architecture Blog': '#1b660f',
+      'AWS Security Blog': '#dd3522',
     };
 
     let allItems = [];
