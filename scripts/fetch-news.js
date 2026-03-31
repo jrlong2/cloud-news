@@ -15,20 +15,16 @@ const FEEDS = [
     source: "AWS What's New",
   },
   {
-    url: 'https://azure.microsoft.com/en-us/updates/feed/',
-    source: 'Azure Updates',
+    url: 'https://aws.amazon.com/blogs/aws/feed/',
+    source: 'AWS News Blog',
   },
   {
-    url: 'https://cloudblog.withgoogle.com/products/gcp/rss/',
-    source: 'Google Cloud Blog',
+    url: 'https://aws.amazon.com/blogs/architecture/feed/',
+    source: 'AWS Architecture Blog',
   },
   {
-    url: 'https://www.hashicorp.com/blog/feed.xml',
-    source: 'HashiCorp Blog',
-  },
-  {
-    url: 'https://blog.cloudflare.com/rss/',
-    source: 'Cloudflare Blog',
+    url: 'https://aws.amazon.com/blogs/security/feed/',
+    source: 'AWS Security Blog',
   },
 ];
 

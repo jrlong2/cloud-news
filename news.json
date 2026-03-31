@@ -50,12 +50,6 @@
       "pubDate": "Mon, 30 Mar 2026 07:00:00 GMT"
     },
     {
-      "title": "Cloudflare Client-Side Security: smarter detection, now open to everyone",
-      "link": "https://blog.cloudflare.com/client-side-security-open-to-everyone/",
-      "source": "Cloudflare Blog",
-      "pubDate": "Mon, 30 Mar 2026 06:00:00 GMT"
-    },
-    {
       "title": "Amazon Timestream for InfluxDB Now Supports Advanced Metrics",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-for-influxdb-advanced-metrics/",
       "source": "AWS What's New",
@@ -74,34 +68,16 @@
       "pubDate": "Fri, 27 Mar 2026 16:00:00 GMT"
     },
     {
-      "title": "What’s new with Google Cloud",
-      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "source": "Google Cloud Blog",
-      "pubDate": "Fri, 27 Mar 2026 16:00:00 +0000"
-    },
-    {
       "title": "AWS Management Console now supports settings to control service and Region visibility",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/account-customizations-console/",
       "source": "AWS What's New",
       "pubDate": "Fri, 27 Mar 2026 15:00:00 GMT"
     },
     {
-      "title": "How we use Abstract Syntax Trees (ASTs) to turn Workflows code into visual diagrams ",
-      "link": "https://blog.cloudflare.com/workflow-diagrams/",
-      "source": "Cloudflare Blog",
-      "pubDate": "Fri, 27 Mar 2026 13:00:00 GMT"
-    },
-    {
       "title": "Amazon GameLift Servers expands instance support with next-generation EC2 instance families",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-gamelift-servers-expands-instance-support/",
       "source": "AWS What's New",
       "pubDate": "Fri, 27 Mar 2026 09:00:00 GMT"
-    },
-    {
-      "title": "Modernizing governance on HCP with multi-owner and global automation",
-      "link": "https://www.hashicorp.com/blog/modernizing-governance-on-hcp-with-multi-owner-and-global-automation",
-      "source": "HashiCorp Blog",
-      "pubDate": "2026-03-27T07:12:00.000Z"
     },
     {
       "title": "AWS HealthImaging announces study-level fine-grained access control",
@@ -162,12 +138,6 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aurora-dsql-connector-for-ruby/",
       "source": "AWS What's New",
       "pubDate": "Thu, 26 Mar 2026 17:00:00 GMT"
-    },
-    {
-      "title": "LAB3 accelerates cloud modernization with HashiCorp-powered unified workflows ",
-      "link": "https://www.hashicorp.com/blog/lab3-accelerates-cloud-modernization-with-hashicorp-powered-unified-workflows",
-      "source": "HashiCorp Blog",
-      "pubDate": "2026-03-26T17:00:00.000Z"
     },
     {
       "title": "AWS Lambda increases the file descriptor limit to 4,096 for functions running on Lambda Managed Instances",
