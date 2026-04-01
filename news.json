@@ -1,6 +1,174 @@
 {
-  "lastUpdated": "2026-03-31T09:30:02.859Z",
+  "lastUpdated": "2026-04-01T00:00:56.233Z",
   "items": [
+    {
+      "title": "AWS launches Sustainability console for carbon emissions tracking",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-launches-sustainability-console/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 22:00:00 GMT"
+    },
+    {
+      "title": "AWS IAM Identity Center is now available in AWS European Sovereign Cloud (Germany) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-iam-identity-center-european-sovereign-cloud-germany-region/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 21:00:00 GMT"
+    },
+    {
+      "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.2",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-managed-service-flink-2-2/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 20:00:00 GMT"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio adds Observability for AWS Glue jobs via CloudWatch metrics",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 19:30:00 GMT"
+    },
+    {
+      "title": "AWS Organizations now provides organization paths in API responses",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-organizations-paths-api-responses/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 18:59:00 GMT"
+    },
+    {
+      "title": "AWS Deadline Cloud now supports new fleet scaling configurations for render farms ",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/deadline-cloud-fleet-scaling/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 18:29:00 GMT"
+    },
+    {
+      "title": "AWS Marketplace sellers can now self-serve refunds and agreement cancellations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-marketplace-seller-self-service-refund-cancel/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 18:28:00 GMT"
+    },
+    {
+      "title": "Aurora DSQL launches new connectors that simplify building .NET and Rust applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aurora-dsql-rust-npgsql-connectors/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 17:34:00 GMT"
+    },
+    {
+      "title": "Amazon S3 Vectors expands to 17 additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-vectors-expands-17-regions/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 17:28:00 GMT"
+    },
+    {
+      "title": "AWS announces End User Messaging Notify",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-end-user-messaging-notify/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 17:24:00 GMT"
+    },
+    {
+      "title": "AWS Service Availability Updates",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-service-availability/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 17:00:00 GMT"
+    },
+    {
+      "title": "Amazon ECS Managed Instances now supports Amazon EC2 instance store",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecs-mi-local-storage/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 16:30:00 GMT"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Evaluations is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/agentcore-evaluations-generally-available/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 16:00:00 GMT"
+    },
+    {
+      "title": "AWS End User Messaging now supports RCS for Business",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/rcs-business-messaging/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 15:57:00 GMT"
+    },
+    {
+      "title": "AWS DevOps Agent is now generally available ",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-devops-agent-generally-available/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 15:11:00 GMT"
+    },
+    {
+      "title": "Amazon Connect now expands testing and simulation capabilities to chats",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-connect-expands-simulation-chat/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 15:00:00 GMT"
+    },
+    {
+      "title": "AWS Security Agent on-demand penetration testing is now generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-security-agent-ondemand-penetration/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 14:00:00 GMT"
+    },
+    {
+      "title": "AWS Private CA now publishes utilization metrics to Amazon CloudWatch",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-private-ca-publishes-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 13:00:00 GMT"
+    },
+    {
+      "title": "Introducing Programmable Flow Protection: custom DDoS mitigation logic for Magic Transit customers",
+      "link": "https://blog.cloudflare.com/programmable-flow-protection/",
+      "source": "Cloudflare Blog",
+      "pubDate": "Tue, 31 Mar 2026 13:00:00 GMT"
+    },
+    {
+      "title": "Amazon CloudWatch Logs introduces lookup query command",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-lookup-query-command/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 10:00:00 GMT"
+    },
+    {
+      "title": "AWS Backup expands support for Amazon Redshift Serverless to seven Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-backup-redshift-serverless-seven-regions/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 10:00:00 GMT"
+    },
+    {
+      "title": " AWS Transform custom announces general availability of automated codebase analysis",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/transform-custom-new-codebase-analysis/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 08:00:00 GMT"
+    },
+    {
+      "title": "AWS Transform custom introduces new AWS-managed transformations to modernize code at scale",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/transform-custom-new-transformations/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 08:00:00 GMT"
+    },
+    {
+      "title": "Announcing Amazon RDS for Oracle on AWS Outposts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-oracle-aws-outposts/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 08:00:00 GMT"
+    },
+    {
+      "title": "Amazon RDS for Db2 is now available in Asia Pacific (New Zealand)",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-db2-available-Aisa-Pacific-New-Zealand/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 07:27:00 GMT"
+    },
+    {
+      "title": "Amazon RDS for SQL Server Developer Edition is now available in the AWS GovCloud (US) Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-rds-sql-server-developer-edition-available-aws-govcloud-regions/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 07:25:00 GMT"
+    },
+    {
+      "title": "Amazon CloudFront now supports BYOIP for IPv6 through VPC IPAM integration",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudfront-byoip-ipv6-vpc-ipam/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 07:00:00 GMT"
+    },
+    {
+      "title": "Amazon S3 Express One Zone now supports request metrics in Amazon CloudWatch",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/s3-express-one-zone-cloudwatch-request-metrics/",
+      "source": "AWS What's New",
+      "pubDate": "Tue, 31 Mar 2026 06:00:00 GMT"
+    },
     {
       "title": "Amazon CloudWatch now supports multi-account and region log centralization based on data source",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/cloudwatch-centralization-datasource/",
@@ -12,174 +180,6 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-security-hub-govcloud-us-regions/",
       "source": "AWS What's New",
       "pubDate": "Mon, 30 Mar 2026 22:40:00 GMT"
-    },
-    {
-      "title": "AWS HealthOmics introduces VPC-connected workflows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthomics-vpc-connected-workflows/",
-      "source": "AWS What's New",
-      "pubDate": "Mon, 30 Mar 2026 21:58:00 GMT"
-    },
-    {
-      "title": "AWS Elemental MediaTailor now available in Europe (London)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-elemental-mediatailor-london-region/",
-      "source": "AWS What's New",
-      "pubDate": "Mon, 30 Mar 2026 20:00:00 GMT"
-    },
-    {
-      "title": "Amazon Athena launches Capacity Reservations in additional regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-athena-adding-cap-reservation-regions/",
-      "source": "AWS What's New",
-      "pubDate": "Mon, 30 Mar 2026 19:30:00 GMT"
-    },
-    {
-      "title": "Access Cluster Insights through the Amazon OpenSearch Service Console and Amazon EventBridge events",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/access-cluster-insights-opensearch/",
-      "source": "AWS What's New",
-      "pubDate": "Mon, 30 Mar 2026 14:51:00 GMT"
-    },
-    {
-      "title": "Amazon SageMaker Data Agent is now available in the Amazon SageMaker Unified Studio Query Editor",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-data-agent-query-editor/",
-      "source": "AWS What's New",
-      "pubDate": "Mon, 30 Mar 2026 09:30:00 GMT"
-    },
-    {
-      "title": "AWS Direct Connect adds CloudWatch metrics for BGP monitoring",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-direct-connect-cloudwatch-bgp-monitoring/",
-      "source": "AWS What's New",
-      "pubDate": "Mon, 30 Mar 2026 07:00:00 GMT"
-    },
-    {
-      "title": "Cloudflare Client-Side Security: smarter detection, now open to everyone",
-      "link": "https://blog.cloudflare.com/client-side-security-open-to-everyone/",
-      "source": "Cloudflare Blog",
-      "pubDate": "Mon, 30 Mar 2026 06:00:00 GMT"
-    },
-    {
-      "title": "Amazon Timestream for InfluxDB Now Supports Advanced Metrics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-timestream-for-influxdb-advanced-metrics/",
-      "source": "AWS What's New",
-      "pubDate": "Fri, 27 Mar 2026 22:48:00 GMT"
-    },
-    {
-      "title": "Amazon CloudWatch Logs now supports data protection,  OpenSearch PPL and OpenSearch SQL for the Infrequent Access ingestion class",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-infrequent-access-log-class/",
-      "source": "AWS What's New",
-      "pubDate": "Fri, 27 Mar 2026 20:00:00 GMT"
-    },
-    {
-      "title": "AWS Lambda supports up to 32 GB of memory and 16 vCPUs for Lambda Managed Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/lambda-32-gb-memory-16-vcpus/",
-      "source": "AWS What's New",
-      "pubDate": "Fri, 27 Mar 2026 16:00:00 GMT"
-    },
-    {
-      "title": "What’s new with Google Cloud",
-      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
-      "source": "Google Cloud Blog",
-      "pubDate": "Fri, 27 Mar 2026 16:00:00 +0000"
-    },
-    {
-      "title": "AWS Management Console now supports settings to control service and Region visibility",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/account-customizations-console/",
-      "source": "AWS What's New",
-      "pubDate": "Fri, 27 Mar 2026 15:00:00 GMT"
-    },
-    {
-      "title": "How we use Abstract Syntax Trees (ASTs) to turn Workflows code into visual diagrams ",
-      "link": "https://blog.cloudflare.com/workflow-diagrams/",
-      "source": "Cloudflare Blog",
-      "pubDate": "Fri, 27 Mar 2026 13:00:00 GMT"
-    },
-    {
-      "title": "Amazon GameLift Servers expands instance support with next-generation EC2 instance families",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-gamelift-servers-expands-instance-support/",
-      "source": "AWS What's New",
-      "pubDate": "Fri, 27 Mar 2026 09:00:00 GMT"
-    },
-    {
-      "title": "Modernizing governance on HCP with multi-owner and global automation",
-      "link": "https://www.hashicorp.com/blog/modernizing-governance-on-hcp-with-multi-owner-and-global-automation",
-      "source": "HashiCorp Blog",
-      "pubDate": "2026-03-27T07:12:00.000Z"
-    },
-    {
-      "title": "AWS HealthImaging announces study-level fine-grained access control",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-healthimaging-study-level-access-control/",
-      "source": "AWS What's New",
-      "pubDate": "Fri, 27 Mar 2026 07:00:00 GMT"
-    },
-    {
-      "title": "Amazon EC2 High Memory U7i instances now available in Europe (Milan)",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-u7i-europe-milan/",
-      "source": "AWS What's New",
-      "pubDate": "Thu, 26 Mar 2026 22:30:00 GMT"
-    },
-    {
-      "title": "AWS Step Functions adds 28 new service integrations, including Amazon Bedrock AgentCore",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-step-functions-sdk-integrations/",
-      "source": "AWS What's New",
-      "pubDate": "Thu, 26 Mar 2026 22:00:00 GMT"
-    },
-    {
-      "title": "Palmyra Vision 7B from Writer now available on Amazon Bedrock",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/palmyra-vision-7b-writer-bedrock/",
-      "source": "AWS What's New",
-      "pubDate": "Thu, 26 Mar 2026 20:38:00 GMT"
-    },
-    {
-      "title": "Amazon SageMaker Studio launches support for Kiro and Cursor IDEs as remote IDEs ",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sagemaker-studio-kiro-cursor/",
-      "source": "AWS What's New",
-      "pubDate": "Thu, 26 Mar 2026 19:53:00 GMT"
-    },
-    {
-      "title": "Amazon ECS Managed Instances now supports FIPS-certified workloads on Graviton and GPU accelerated instances in AWS GovCloud (US) Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-ecs-mi-supports-fips-graviron-gpu/",
-      "source": "AWS What's New",
-      "pubDate": "Thu, 26 Mar 2026 19:40:00 GMT"
-    },
-    {
-      "title": "Research and Engineering Studio on AWS 2026.03 is now available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/res-2026-03-is-now-available/",
-      "source": "AWS What's New",
-      "pubDate": "Thu, 26 Mar 2026 18:52:00 GMT"
-    },
-    {
-      "title": "AWS Parallel Computing Service supports slurmdbd and cgroups settings",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-pcs-manages-slurmdbd-cgroups-settings/",
-      "source": "AWS What's New",
-      "pubDate": "Thu, 26 Mar 2026 18:29:00 GMT"
-    },
-    {
-      "title": "Amazon EC2 I8ge instances are now generally available in additional AWS regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/ec2-i8ge-available-new-regions/",
-      "source": "AWS What's New",
-      "pubDate": "Thu, 26 Mar 2026 17:00:00 GMT"
-    },
-    {
-      "title": "Aurora DSQL launches connector that simplifies building Ruby applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aurora-dsql-connector-for-ruby/",
-      "source": "AWS What's New",
-      "pubDate": "Thu, 26 Mar 2026 17:00:00 GMT"
-    },
-    {
-      "title": "LAB3 accelerates cloud modernization with HashiCorp-powered unified workflows ",
-      "link": "https://www.hashicorp.com/blog/lab3-accelerates-cloud-modernization-with-hashicorp-powered-unified-workflows",
-      "source": "HashiCorp Blog",
-      "pubDate": "2026-03-26T17:00:00.000Z"
-    },
-    {
-      "title": "AWS Lambda increases the file descriptor limit to 4,096 for functions running on Lambda Managed Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-Lambda-file-descriptors-increase-4096/",
-      "source": "AWS What's New",
-      "pubDate": "Thu, 26 Mar 2026 16:15:00 GMT"
-    },
-    {
-      "title": "AWS AppConfig adds enhanced targeting during feature flag rollout ",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/appconfig-enhanced-targeting-feature-flag-rollout/",
-      "source": "AWS What's New",
-      "pubDate": "Thu, 26 Mar 2026 16:00:00 GMT"
     }
   ]
 }
