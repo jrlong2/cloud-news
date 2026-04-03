@@ -66,34 +66,6 @@
       margin-top: 3px;
     }
 
-    nav {
-      display: flex;
-      gap: 6px;
-      flex-wrap: wrap;
-    }
-
-    .tab {
-      padding: 6px 14px;
-      border-radius: 20px;
-      border: 1px solid var(--border);
-      background: transparent;
-      color: var(--text-secondary);
-      font-size: 0.82rem;
-      font-weight: 500;
-      cursor: pointer;
-      transition: background var(--transition), color var(--transition), border-color var(--transition);
-    }
-
-    .tab:hover {
-      background: var(--surface-hover);
-      color: var(--text-primary);
-    }
-
-    .tab.active {
-      background: var(--text-link);
-      border-color: var(--text-link);
-      color: #fff;
-    }
 
     main {
       max-width: 1100px;
@@ -277,14 +249,6 @@
         <h1>☁️ <span>Cloud</span> News</h1>
         <div id="last-updated">Loading…</div>
       </div>
-      <nav id="tabs">
-        <button class="tab active" data-source="all">All</button>
-        <button class="tab" data-source="AWS What's New">AWS</button>
-        <button class="tab" data-source="Azure Updates">Azure</button>
-        <button class="tab" data-source="Google Cloud Blog">Google Cloud</button>
-        <button class="tab" data-source="HashiCorp Blog">HashiCorp</button>
-        <button class="tab" data-source="Cloudflare Blog">Cloudflare</button>
-      </nav>
     </div>
   </header>
 
@@ -305,7 +269,6 @@
     };
 
     let allItems = [];
-    let activeFilter = 'all';
 
     function formatDate(str) {
       try {
@@ -361,22 +324,6 @@
         .replace(/"/g, '&quot;');
     }
 
-    function applyFilter(source) {
-      activeFilter = source;
-      document.querySelectorAll('.tab').forEach(t => {
-        t.classList.toggle('active', t.dataset.source === source);
-      });
-      const filtered = source === 'all'
-        ? allItems
-        : allItems.filter(i => i.source === source);
-      renderCards(filtered);
-    }
-
-    document.getElementById('tabs').addEventListener('click', e => {
-      const tab = e.target.closest('.tab');
-      if (tab) applyFilter(tab.dataset.source);
-    });
-
     /* Populate the ticker with the 6 most recent headlines */
     function populateTicker(items) {
       const track = document.getElementById('ticker-track');
@@ -387,7 +334,6 @@
         .map(i => `<span>${escHtml(i.title)}</span>`)
         .join('');
     }
-
     fetch('news.json')
       .then(r => {
         if (!r.ok) throw new Error('news.json not found');
@@ -401,7 +347,7 @@
           : '';
         document.getElementById('last-updated').textContent = ts;
         populateTicker(allItems);
-        applyFilter('all');
+        renderCards(allItems);
       })
       .catch(err => {
         document.getElementById('loading').innerHTML =
