@@ -1,6 +1,60 @@
 {
-  "lastUpdated": "2026-04-03T12:04:41.314Z",
+  "lastUpdated": "2026-04-05T00:00:43.229Z",
   "items": [
+    {
+      "title": "Apache Spark troubleshooting and upgrade agents now available as Kiro powers",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-emr-spark-troubleshooting-upgrade-kiro-power/",
+      "source": "AWS What's New",
+      "pubDate": "Fri, 03 Apr 2026 21:49:00 GMT"
+    },
+    {
+      "title": "AWS Glue Schema Registry is now available in three more AWS regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-gsr-3-more-regions/",
+      "source": "AWS What's New",
+      "pubDate": "Fri, 03 Apr 2026 21:04:00 GMT"
+    },
+    {
+      "title": "Amazon SageMaker Data Agent introduces charting capabilities and support for materialized views",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-sgmkr-dataagent-chart-mv/",
+      "source": "AWS What's New",
+      "pubDate": "Fri, 03 Apr 2026 20:30:00 GMT"
+    },
+    {
+      "title": "Amazon Bedrock Guardrails announces general availability of cross-account safeguards",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/bedrock-guardrails-cross-account-safeguards/",
+      "source": "AWS What's New",
+      "pubDate": "Fri, 03 Apr 2026 19:15:00 GMT"
+    },
+    {
+      "title": "Partner Revenue Measurement now supports User Agent string for certain AWS services",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/partner-revenue-measurement-user-agent-support/",
+      "source": "AWS What's New",
+      "pubDate": "Fri, 03 Apr 2026 18:55:00 GMT"
+    },
+    {
+      "title": "Partner Revenue Measurement now supports AWS Marketplace Metering for certain AWS Marketplace products",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/partner-revenue-supports-mp-metering/",
+      "source": "AWS What's New",
+      "pubDate": "Fri, 03 Apr 2026 18:55:00 GMT"
+    },
+    {
+      "title": "AWS Secrets Manager console now supports custom input for AWS KMS keys ",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/aws-secrets-manager-console-custom-kms-key-input/",
+      "source": "AWS What's New",
+      "pubDate": "Fri, 03 Apr 2026 18:00:00 GMT"
+    },
+    {
+      "title": "What’s new with Google Cloud",
+      "link": "https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud/",
+      "source": "Google Cloud Blog",
+      "pubDate": "Fri, 03 Apr 2026 16:00:00 +0000"
+    },
+    {
+      "title": "Amazon CloudWatch introduces PromQL querying with Query Studio Preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-cloudwatch-query-studio-preview/",
+      "source": "AWS What's New",
+      "pubDate": "Fri, 03 Apr 2026 07:00:00 GMT"
+    },
     {
       "title": "Amazon ElastiCache Serverless now supports IPv6 and dual stack connectivity",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-elasticache-serverless-ipv6-dual-stack/",
@@ -126,60 +180,6 @@
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/multi-region-opt-in-aws-microsoft-ad/",
       "source": "AWS What's New",
       "pubDate": "Wed, 01 Apr 2026 07:00:00 GMT"
-    },
-    {
-      "title": "Oracle Database@AWS launches sub-millisecond network latency for high performance applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/04/oracle-database-aws-launches-high-performance-networking/",
-      "source": "AWS What's New",
-      "pubDate": "Wed, 01 Apr 2026 07:00:00 GMT"
-    },
-    {
-      "title": "Amazon CloudWatch now supports ingesting Security Hub CSPM findings with organization-wide enablement",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-cloudwatch-securityhub-findings/",
-      "source": "AWS What's New",
-      "pubDate": "Tue, 31 Mar 2026 23:00:00 GMT"
-    },
-    {
-      "title": "AWS launches Sustainability console for carbon emissions tracking",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-launches-sustainability-console/",
-      "source": "AWS What's New",
-      "pubDate": "Tue, 31 Mar 2026 22:00:00 GMT"
-    },
-    {
-      "title": "Amazon OpenSearch Service introduces agentic AI for log analytics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/opensearch-agentic-ai-log-analytics-observability/",
-      "source": "AWS What's New",
-      "pubDate": "Tue, 31 Mar 2026 21:17:00 GMT"
-    },
-    {
-      "title": "AWS IAM Identity Center is now available in AWS European Sovereign Cloud (Germany) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-iam-identity-center-european-sovereign-cloud-germany-region/",
-      "source": "AWS What's New",
-      "pubDate": "Tue, 31 Mar 2026 21:00:00 GMT"
-    },
-    {
-      "title": "Amazon Managed Service for Apache Flink now supports Apache Flink 2.2",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-managed-service-flink-2-2/",
-      "source": "AWS What's New",
-      "pubDate": "Tue, 31 Mar 2026 20:00:00 GMT"
-    },
-    {
-      "title": "Amazon SageMaker Unified Studio adds Observability for AWS Glue jobs via CloudWatch metrics",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/sagemaker-unified-studio-metrics/",
-      "source": "AWS What's New",
-      "pubDate": "Tue, 31 Mar 2026 19:30:00 GMT"
-    },
-    {
-      "title": "AWS Organizations now provides organization paths in API responses",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/aws-organizations-paths-api-responses/",
-      "source": "AWS What's New",
-      "pubDate": "Tue, 31 Mar 2026 18:59:00 GMT"
-    },
-    {
-      "title": "AWS Deadline Cloud now supports new fleet scaling configurations for render farms ",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/03/deadline-cloud-fleet-scaling/",
-      "source": "AWS What's New",
-      "pubDate": "Tue, 31 Mar 2026 18:29:00 GMT"
     }
   ]
 }
