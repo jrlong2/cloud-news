@@ -35,10 +35,11 @@ const FEEDS = [
 const FEED_TIMEOUT_MS = 15000;
 
 async function fetchFeed(feedConfig) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), FEED_TIMEOUT_MS);
+  const timeout = new Promise((_, reject) =>
+    setTimeout(() => reject(new Error(`timed out after ${FEED_TIMEOUT_MS}ms`)), FEED_TIMEOUT_MS)
+  );
   try {
-    const feed = await parser.parseURL(feedConfig.url, { signal: controller.signal });
+    const feed = await Promise.race([parser.parseURL(feedConfig.url), timeout]);
     return feed.items.map((item) => ({
       title: item.title || 'Untitled',
       link: item.link || item.guid || '',
@@ -46,11 +47,8 @@ async function fetchFeed(feedConfig) {
       pubDate: item.pubDate || item.isoDate || new Date().toISOString(),
     }));
   } catch (err) {
-    const reason = controller.signal.aborted ? `timed out after ${FEED_TIMEOUT_MS}ms` : err.message;
-    console.warn(`Warning: Failed to fetch ${feedConfig.source}: ${reason}`);
+    console.warn(`Warning: Failed to fetch ${feedConfig.source}: ${err.message}`);
     return [];
-  } finally {
-    clearTimeout(timer);
   }
 }
 
